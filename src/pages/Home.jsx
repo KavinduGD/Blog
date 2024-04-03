@@ -29,7 +29,7 @@ function Home() {
             <p className="font-semibold">Oct 19 2023</p>
           </div>
           <div className="mt-[20px]">
-            {[0, 1, 2, 3].map((item) => (
+            {[0, 1, 2, 3, 4, 5].map((item) => (
               <div className="border-t-[1px] border-[#0B0B7D] flex gap-[30px] pt-[12px] mt-[10px]">
                 <img src={list_image} alt="" />
                 <div className="right flex flex-col justify-between">
@@ -67,6 +67,9 @@ function Home() {
             ))}
           </div>
         </div>
+      </div>
+      <div className="bottom-ad w-full flex items-center justify-center py-[30px] bg-[#F5F5F5] mt-[30px]">
+        <img src={ad1} alt="" />
       </div>
     </div>
   );
